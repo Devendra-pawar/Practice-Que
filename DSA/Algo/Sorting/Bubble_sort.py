@@ -1,6 +1,4 @@
 # link- https://www.youtube.com/watch?v=RrrlAeGXARQ
-
-
 l = [3,6,8,1,4]
 n = 5
 for i in range(n):
