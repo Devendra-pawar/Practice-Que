@@ -299,6 +299,26 @@
 
 
 #Que 41
-a = int(input("Enter the no. "))
-sum = 0
-while 
+# a = int(input("Enter the no. "))
+# sum = 0
+# for i in str(a):
+#     sum+=int(i)
+# print(sum)
+
+
+#Que 42
+
+a = 11
+for i in range(2,a):
+    if a%i!=0:
+        print("prime no.")
+
+
+
+# if :
+#     print("Not a prime no.")
+# else:
+#     print("Prime no.")
+
+
+    

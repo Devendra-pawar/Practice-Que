@@ -181,5 +181,23 @@
 # if n==res:print("strong no.")
 
 #Que 23- Perfect number :
+# n = 496
+# sum = 0
+# for i in range(1,n):
+#     if n % i==0:
+#         sum = sum+i
+# if n==sum:
+#     print("perfect no.")
+# else: print("nhi hai")
 
-    
+#Que 24- Perfect Square :
+
+
+#Que 25-Automorfic no.
+n = 625
+a = n*n 
+print(a)
+b = a%10
+if b == n :
+    print("it is a automorfic no.")
+else: print("nhi hai ")
