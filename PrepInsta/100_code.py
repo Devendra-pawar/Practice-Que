@@ -194,10 +194,29 @@
 
 
 #Que 25-Automorfic no.
-n = 625
-a = n*n 
-print(a)
-b = a%10
-if b == n :
-    print("it is a automorfic no.")
-else: print("nhi hai ")
+# n = 625
+# a = n*n
+# print(n) 
+# print(a)
+# c = 10 ** len(str(n))
+# # print(c)
+
+# b = a% c
+
+# if b == n :
+#     print("it is a automorfic no.")
+# else: print("nhi hai ")
+
+
+#Que 26- Harshad number
+
+a = 2221
+
+b = a 
+
+c = 0 
+for i in range(len(str(a))):
+    b = b%10
+    c = c+b
+
+print(c)

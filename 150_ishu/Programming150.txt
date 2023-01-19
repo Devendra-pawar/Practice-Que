@@ -140,7 +140,7 @@
 	  * * * *
 	* * * * *
 61- Mirrored Inverted Right Triangle
-     	* * * * *
+    * * * * *
 	  * * * *
 	    * * *
 	      * *
@@ -152,7 +152,7 @@
 	 * * * *
 	* * * * *	
 63- Inverted Triangle
-     	* * * * *
+    * * * * *
 	 * * * *
 	  * * *
 	   * *
@@ -182,11 +182,11 @@
 	 *     *
                *          *
 67- Hollow Rectangle
-	*****
+	 *****
 	*     *
 	*     *
 	*     *
-	*****
+	 *****
 68- Take 2 numbers as inputs and find their HCF.
 69- Find the LCM of two numbers
 70- Fibonacci series - 0, 1, 1, 2, 3, 5, 8, 13, 21...
