@@ -140,6 +140,44 @@
 
 #Question no. 13
 
+# num = int(input("Enter a no.:"))
+# temp = num
+# check = 0
+# while temp >0:
+#     last = temp%10 
+#     temp = temp//10
+#     check = check * 10 + last
+# if num == check:
+#     print(num," is a palindrome")
+# else:
+#     print("Not a palindrome")
+
+#Question no. 14
+
+# num = int(input("Enter any no.:"))
+# temp = num
+# l = len(str(num))
+# sum = 0
+
+# while temp>0:
+#     ldigit = temp %10
+#     temp = temp//10
+#     sum = sum + (ldigit**l)
+# if sum == num :
+#     print(num,"is a armstrong number")
+# else:
+#     print(num," is not a armstrong number")
+
+#Question no. 15
+
+
+
+
+
+
+
+
+
 
 
 
@@ -173,6 +211,24 @@
 #         lcm = i
 #         break
 # print("Least common multiplier is ",lcm)
+
+
+# Question no. 3
+#same as 1
+
+#Question no. 4
+
+# bn = int(input("Enter any binary no.:"))
+# ans = 0
+# base = 1
+# while bn>0:
+#     rem = bn%10
+#     rem *= base
+#     ans += rem
+    
+#     bn= bn//10
+#     base *= 2
+# print("Decimal no is ",ans)
 
 
 
@@ -223,10 +279,26 @@
 
 #Question no. 3
 
+# def fun(A,n):
+#     if n ==0:
+#         return A[0]
+#     return max(A[n-1], fun(A,n-1))
+
+# A = [1, 4, 3, -5, -4, 8, 6]
+# n = len(A)
+# print(fun(A,n))
 
 
+#Question no. 4
 
+# def fun(A,n):
+#     if n ==0:
+#         return A[0]
+#     return min(A[n-1], fun(A,n-1))
 
+# A = [1, 4, 3, -5, -4, 8, 6]
+# n = len(A)
+# print(fun(A,n))
 
 
 
@@ -271,11 +343,25 @@
 
 #Question 3
 
+# arr = [10, 89, 9, 56, 4, 80, 8]
+# min = arr[0]
+# max = arr[0]
+# for i in arr:
+#     if i < min : min = i
+#     if i > max : max = i
+# print(min,max)
 
+#Question no. 4
 
+# arr = [10, 13, 17, 11, 34, 21]
+# first = arr[0]
+# second = arr[1]
 
-
-
+# for i in arr:
+#     if i <first: first = i
+# for i in arr:
+#     if i < second and i != first: second = i
+# print(second)
 
 
 
@@ -308,9 +394,16 @@
 
 #Question no. 3
 
+# ch = input("Enter any character:")
+# print("the ascii value is",ord(ch))
 
+#Question no. 4
 
-
+# string = input("Enter :")
+# count=0
+# for i in string:
+#     count +=1
+# print(count)
 
 
 
