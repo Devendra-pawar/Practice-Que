@@ -1,6 +1,6 @@
 # Getting Started-----------------------------------------------------------
 
-#Question no. 1 
+#Question no. 1  Positive or Negative number:
 
 # num = int(input("Enter any no.:"))
 # if num >0 :
@@ -11,7 +11,7 @@
 #     print( "It is a negative no.")
 
 
-#Question no. 2
+#Question no. 2 Even or Odd number:
 
 # num = int(input("Enter any no.:"))
 
@@ -21,7 +21,7 @@
 #     print("It is a odd no.")
 
 
-#Question no. 3
+#Question no. 3 Sum of First N Natural numbers:
 
 # num = int(input("Enter any number:"))
 # sum = 0
@@ -30,11 +30,11 @@
 # print(sum)
 
 
-#Question no. 4
+#Question no. 4-Sum of First N Natural numbers:
 #same
 
 
-#Question no. 5
+#Question no. 5-Sum of numbers in a given range: 
 
 # low = int(input("Enter the low of the number:"))
 # high= int(input("Enter the high of the number:"))
@@ -44,7 +44,7 @@
 # print(sum)
 
 
-#Question no. 6
+#Question no. 6 Greatest of two numbers: 
 
 # num1 = int(input("Enter any number:"))
 # num2 = int(input("Enter any number:"))
@@ -57,7 +57,7 @@
 #     print("Greatest number is:",num2)
 
 
-#Question no. 7
+#Question no. 7 Greatest of the Three numbers:
 
 # num1 = int(input("Enter first number:"))
 # num2 = int(input("Enter second number:"))
@@ -75,7 +75,7 @@
 #         print("Greatest number is:",num3)
         
 
-#Question no. 8
+#Question no. 8 Leap year or not: 
 # print("Checking a year is a leap year or not-")
 # year = int(input("Enter any year:"))
 
@@ -85,7 +85,7 @@
 #     print("Not a leap year")
 
 
-#Question no. 9
+#Question no. 9 Prime number:
 
 # num = int(input("Enter any number:"))
 
@@ -102,7 +102,7 @@
 #     print("Not prime")
 
 
-#Question no. 10
+#Question no. 10 Prime number within a given range:
 
 # low = int(input("Enter the low of the number:"))
 # high= int(input("Enter the high of the number:"))
@@ -117,7 +117,7 @@
 #         print(i,end=" ")
 
 
-#Question no. 11
+#Question no. 11 Sum of digits of a number: 
 
 # num = int(input("Enter any number :"))
 # sum = 0 
@@ -128,7 +128,7 @@
 # print(sum)
 
 
-#Question no. 12
+#Question no. 12 Reverse of a number :
 # num = int(input("Enter any number :"))
 # rev = 0 
 # while num > 0 :
@@ -138,7 +138,7 @@
 # print(rev)
 
 
-#Question no. 13
+#Question no. 13 Palindrome number: 
 
 # num = int(input("Enter a no.:"))
 # temp = num
@@ -152,7 +152,7 @@
 # else:
 #     print("Not a palindrome")
 
-#Question no. 14
+#Question no. 14 Armstrong number : 
 
 # num = int(input("Enter any no.:"))
 # temp = num
@@ -168,7 +168,49 @@
 # else:
 #     print(num," is not a armstrong number")
 
-#Question no. 15
+#Question no. 15 Armstrong number in a given range :
+
+#low,high = int(input("Enter low no.")),int(input("Enter high no."))
+# low,high = 150,160
+# for i in range(low,high+1):
+#     j = i
+#     sum = 0
+#     while i > 0:
+#         last = i %10
+#         sum = sum + pow(last,len(str(j)))
+#         i = i//10
+#     if j == sum :print(j)
+
+#Question no. 16 Fibonacci Series upto nth term : 
+
+# len = 10
+# first = 0
+# sec= 1
+# print("Fibonacci series is ",first ,sec,end=" ")
+# for i in range(2,len):
+#     third = first + sec
+#     first = sec
+#     sec = third 
+#     print(third,end=" ")
+
+#Question no. 17 Find the Nth Term of the Fibonacci Series : 
+# num = 10
+
+# old = 0
+# new = 1
+# for i in range(num):
+#     print(old,end=" ")
+#     next = old + new 
+#     old = new 
+#     new = next 
+    
+#Question no. 18 Factorial of a number :
+
+# n = 5
+# fac= 1
+# for i in range(1,n+1):
+#     fac = fac*i
+# print(fac)
 
 
 
@@ -189,7 +231,7 @@
 
 #Working with Numbers--------------------------------------
 
-#Question no . 1 
+#Question no . 1 Highest Common Factor(HCF):
 
 # num1 = 36
 # num2 = 60
@@ -201,7 +243,7 @@
 # print("Highest common factor is ",hcf)
 
 
-#Question no. 2 
+#Question no. 2 Lowest Common Multiple (LCM) : 
 
 # num1 = 12
 # num2 = 14
@@ -213,10 +255,10 @@
 # print("Least common multiplier is ",lcm)
 
 
-# Question no. 3
+# Question no. 3 Greatest Common Divisor :
 #same as 1
 
-#Question no. 4
+#Question no. 4 Binary to Decimal to conversion : 
 
 # bn = int(input("Enter any binary no.:"))
 # ans = 0
@@ -230,7 +272,22 @@
 #     base *= 2
 # print("Decimal no is ",ans)
 
+#Question no. 5 Octal to Decimal conversion :
 
+# num = 512
+# dec = 0
+# base = 1
+
+# while num >0:
+#     digit = num % 10
+#     dec = dec + digit *base 
+#     base *= 8
+#     num = num//10
+# print("Decimal no. is ",dec)
+
+
+#Question no. 6 Hexadecimal to Decimal conversion:
+#............
 
 
 
@@ -246,7 +303,7 @@
 
 #Codes for Recursion---------------------------------------
 
-#Question no. 1
+#Question no. 1 Power of a Number –
 
 # def fun(a,b):
 #     if b ==0:
@@ -258,7 +315,7 @@
 # print("answer is",fun(base,power))
 
 
-#Question no. 2
+#Question no. 2 Prime Number –
 
 # def prime(n,i):
 #     if n==i :
@@ -277,7 +334,7 @@
 #     print("It is not a prime no.")
 
 
-#Question no. 3
+#Question no. 3 Largest element in an array –
 
 # def fun(A,n):
 #     if n ==0:
@@ -289,7 +346,7 @@
 # print(fun(A,n))
 
 
-#Question no. 4
+#Question no. 4 Smallest element in an array –
 
 # def fun(A,n):
 #     if n ==0:
@@ -299,6 +356,16 @@
 # A = [1, 4, 3, -5, -4, 8, 6]
 # n = len(A)
 # print(fun(A,n))
+
+
+#Question no. 5 Reversing a Number –
+
+#...............
+
+
+#Question no. 6 HCF of two numbers –
+
+
 
 
 
@@ -312,7 +379,7 @@
 
 #Important Codes related to Arrays-------------------------
 
-# QUESTION NO. 1
+# QUESTION NO. 1 Find Largest element in an array : 
 
 # a = [10, 89, 9, 56, 4, 80, 8]
 # print(max(a))
@@ -332,7 +399,7 @@
 #         max = a[i]
 # print(max)
 
-#Question 2 
+#Question 2  Find Smallest Element in an Array : 
 
 # a = [10, 89, 9, 56, 4, 80, 8]
 # min = a[0]
@@ -341,7 +408,7 @@
 #         min = a[i]
 # print(min)
 
-#Question 3
+#Question 3 Find the Smallest and largest element in an array : 
 
 # arr = [10, 89, 9, 56, 4, 80, 8]
 # min = arr[0]
@@ -351,7 +418,7 @@
 #     if i > max : max = i
 # print(min,max)
 
-#Question no. 4
+#Question no. 4 Find Second Smallest Element in an Array : 
 
 # arr = [10, 13, 17, 11, 34, 21]
 # first = arr[0]
@@ -363,6 +430,42 @@
 #     if i < second and i != first: second = i
 # print(second)
 
+#Question no. 5 Calculate the sum of elements in an array : 
+
+# arr = [10, 89, 9, 56, 4, 80, 8]
+# sum = 0
+# for i in arr:
+#     sum+= i
+# print(sum)
+
+
+#Question no. 6 Reverse an Array :
+
+# A = [10, 20, 30, 40, 50]
+# a = A[::-1]
+# print(a)
+
+#Question no. 7  Sort first half in ascending order and second half in descending : 
+
+# arr = [1, 90, 34, 89, 7, 9]
+# half = len(arr)//2
+# arr.sort()
+
+# a1 = arr[:half]
+# a2 = arr[half:]
+# a2.sort(reverse= True)
+# print(a1+a2)
+
+
+#Question no. 8 Sort the elements of an array : 
+# arr = [10, 40, 20, 30]
+# arr.sort()
+# print("in ascending:",arr)
+# arr.sort(reverse=True)
+# print("in decending:",arr)
+
+
+
 
 
 
@@ -373,7 +476,7 @@
 
 #Operations on Strings-------------------------------------
 
-# Question no. 1
+# Question no. 1 Check whether a character is a vowel or consonant : 
 
 # c = input("Enter a character:")
 
@@ -382,7 +485,7 @@
 # else:
 #     print("It is a consonant")
 
-# Question no. 2
+# Question no. 2 Check whether a character is a alphabet or not :
 
 # ch = input("Enter any character:")
 
@@ -392,12 +495,12 @@
 #     print("It is not a alphabet")
 
 
-#Question no. 3
+#Question no. 3 Find the ASCII value of a character :
 
 # ch = input("Enter any character:")
 # print("the ascii value is",ord(ch))
 
-#Question no. 4
+#Question no. 4 Length of the string without using strlen() function :
 
 # string = input("Enter :")
 # count=0
@@ -406,18 +509,47 @@
 # print(count)
 
 
+#Question no. 5 Toggle each character in a string :
+
+# String = 'GuDDuBHaiyA'
+# new = str()
+
+# for i in String:
+#     if i.isupper():
+#         i = i.lower()
+#         new +=i
+#     else:
+#         i = i.upper()
+#         new+=i
+# print(new)
 
 
+#Question no. 6 Count the number of vowels : 
+
+# string = "prepinsta"
+# count = 0
+# for i in string:
+#     if i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u':
+#         count+=1
+# print(count)
 
 
+#Question no. 7 Remove the vowels from a String :
 
+# string = "PrepInsta"
+# new =""
+# for i in string:
+#     if i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u' or i == "A" or i == "E" or i == "I" or i == "O" or i == "U":
+#         pass
+#     else :
+#         new +=i
+# print(new)
 
-
-
-
-
-
-
+#Question no. 8 Check if the given string is Palindrome or not : 
+# num = '12321'
+# pal = num[::-1]
+# if pal == num:print("Palidrome no.")
+# else:print("not a palidrome")
 
 
 
