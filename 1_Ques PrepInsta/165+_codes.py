@@ -1,6 +1,6 @@
 # Getting Started-----------------------------------------------------------
 
-#Question no. 1  Positive or Negative number:
+#Que 1  Positive or Negative number:
 
 # num = int(input("Enter any no.:"))
 # if num >0 :
@@ -11,7 +11,7 @@
 #     print( "It is a negative no.")
 
 
-#Question no. 2 Even or Odd number:
+#Que 2 Even or Odd number:
 
 # num = int(input("Enter any no.:"))
 
@@ -21,7 +21,7 @@
 #     print("It is a odd no.")
 
 
-#Question no. 3 Sum of First N Natural numbers:
+#Que 3 Sum of First N Natural numbers:
 
 # num = int(input("Enter any number:"))
 # sum = 0
@@ -30,11 +30,11 @@
 # print(sum)
 
 
-#Question no. 4-Sum of First N Natural numbers:
+#Que 4-Sum of First N Natural numbers:
 #same
 
 
-#Question no. 5-Sum of numbers in a given range: 
+#Que 5-Sum of numbers in a given range: 
 
 # low = int(input("Enter the low of the number:"))
 # high= int(input("Enter the high of the number:"))
@@ -44,7 +44,7 @@
 # print(sum)
 
 
-#Question no. 6 Greatest of two numbers: 
+#Que 6 Greatest of two numbers: 
 
 # num1 = int(input("Enter any number:"))
 # num2 = int(input("Enter any number:"))
@@ -57,7 +57,7 @@
 #     print("Greatest number is:",num2)
 
 
-#Question no. 7 Greatest of the Three numbers:
+#Que 7 Greatest of the Three numbers:
 
 # num1 = int(input("Enter first number:"))
 # num2 = int(input("Enter second number:"))
@@ -75,7 +75,7 @@
 #         print("Greatest number is:",num3)
         
 
-#Question no. 8 Leap year or not: 
+#Que 8 Leap year or not: 
 # print("Checking a year is a leap year or not-")
 # year = int(input("Enter any year:"))
 
@@ -85,7 +85,7 @@
 #     print("Not a leap year")
 
 
-#Question no. 9 Prime number:
+#Que 9 Prime number:
 
 # num = int(input("Enter any number:"))
 
@@ -102,7 +102,7 @@
 #     print("Not prime")
 
 
-#Question no. 10 Prime number within a given range:
+#Que 10 Prime number within a given range:
 
 # low = int(input("Enter the low of the number:"))
 # high= int(input("Enter the high of the number:"))
@@ -117,7 +117,7 @@
 #         print(i,end=" ")
 
 
-#Question no. 11 Sum of digits of a number: 
+#Que 11 Sum of digits of a number: 
 
 # num = int(input("Enter any number :"))
 # sum = 0 
@@ -128,7 +128,7 @@
 # print(sum)
 
 
-#Question no. 12 Reverse of a number :
+#Que 12 Reverse of a number :
 # num = int(input("Enter any number :"))
 # rev = 0 
 # while num > 0 :
@@ -138,7 +138,7 @@
 # print(rev)
 
 
-#Question no. 13 Palindrome number: 
+#Que 13 Palindrome number: 
 
 # num = int(input("Enter a no.:"))
 # temp = num
@@ -152,7 +152,8 @@
 # else:
 #     print("Not a palindrome")
 
-#Question no. 14 Armstrong number : 
+
+#Que 14 Armstrong number : 
 
 # num = int(input("Enter any no.:"))
 # temp = num
@@ -168,7 +169,8 @@
 # else:
 #     print(num," is not a armstrong number")
 
-#Question no. 15 Armstrong number in a given range :
+
+#Que 15 Armstrong number in a given range :
 
 #low,high = int(input("Enter low no.")),int(input("Enter high no."))
 # low,high = 150,160
@@ -181,7 +183,7 @@
 #         i = i//10
 #     if j == sum :print(j)
 
-#Question no. 16 Fibonacci Series upto nth term : 
+#Que 16 Fibonacci Series upto nth term : 
 
 # len = 10
 # first = 0
@@ -193,7 +195,7 @@
 #     sec = third 
 #     print(third,end=" ")
 
-#Question no. 17 Find the Nth Term of the Fibonacci Series : 
+#Que 17 Find the Nth Term of the Fibonacci Series : 
 # num = 10
 
 # old = 0
@@ -204,7 +206,7 @@
 #     old = new 
 #     new = next 
     
-#Question no. 18 Factorial of a number :
+#Que 18 Factorial of a number :
 
 # n = 5
 # fac= 1
@@ -212,12 +214,22 @@
 #     fac = fac*i
 # print(fac)
 
+#Que 19- Power of a number :
+
+# num =int(input("Enter any no."))
+# power = int(input("Emter power of the no."))
+# print("the power of th no. is:",pow(num,power))
 
 
+#Que 20- Factor of a number :
+
+# num =100
+# for i in range(1,num+1):
+#     if num % i ==0:
+#         print(i,end =" ")
 
 
-
-
+#Que 21 -Finding Prime Factors of a number :
 
 
 
@@ -287,7 +299,7 @@
 
 
 #Question no. 6 Hexadecimal to Decimal conversion:
-#............
+
 
 
 
@@ -464,8 +476,11 @@
 # arr.sort(reverse=True)
 # print("in decending:",arr)
 
+#Que 9-Finding the frequency of elements in an array :
 
+# arr = [10, 30, 10, 20, 10, 20, 30, 10]
 
+# for i in arr:
 
 
 
@@ -545,12 +560,85 @@
 #         new +=i
 # print(new)
 
-#Question no. 8 Check if the given string is Palindrome or not : 
+#Que 8 Check if the given string is Palindrome or not : 
 # num = '12321'
 # pal = num[::-1]
 # if pal == num:print("Palidrome no.")
 # else:print("not a palidrome")
 
+#Que 9- Print the given string in reverse order :
+
+# a = "Hello world"
+# for i in reversed(a) : 
+#     print(i,end="")
+
+#Que 10- Remove all characters from string except alphabets : 
+
+# a = "Justice!For@Chutki123"
+# b = ""
+# for i in a:
+#     if (ord(i)>=65 and ord(i)<=90) or (ord(i)>=97 and ord(i)<=122):
+#         b+= i
+# print(b)
+
+
+#Que 11-Remove spaces from a string : 
+
+# s = "PrepInsta is fabulous"
+# a =""
+# for i in s:
+#     if i != " ":
+#         a+= i
+# print(a)
+#or
+# s = "".join(s.split())
+# print(s)
+
+
+#Que 12-Remove brackets from an algebraic expression : 
+######################
+
+#Que 13-Count the sum of numbers in a string : 
+
+# s ="Daya123Ben456"
+# sum = 0
+# for i in s:
+#     if i >= "1" and  i<= "9":
+#         sum += int(i)
+# print(sum)
+
+
+#Que 14- Capitalize the first and last character of each word of a string :
 
 
 
+
+
+# Pattern Printing----------------------
+
+#Que 1 - Square Star Pattern-
+
+# l =4
+# for i in range(l):
+#     for i in range(l):
+#         print("*",end="")
+#     print("")
+
+
+#Que 2 - Hollow Square Star Pattern-
+
+# l = 4
+# for i in range(l):
+#     for j in range(l):
+#         if i==0 or i ==l-1 or j==0 or j==l-1:
+#             print("*",end="")
+#         else:
+#             print(" ",end="")
+#     print("")
+
+
+#Que 3 - Rhombus Star Pattern-
+
+
+for i in range(1,1):
+    print("8")

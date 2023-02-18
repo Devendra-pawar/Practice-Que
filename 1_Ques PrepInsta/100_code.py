@@ -210,13 +210,13 @@
 
 #Que 26- Harshad number
 
-a = 2221
+# a = 2221
 
-b = a 
+# b = a 
 
-c = 0 
-for i in range(len(str(a))):
-    b = b%10
-    c = c+b
+# c = 0 
+# for i in range(len(str(a))):
+#     b = b%10
+#     c = c+b
 
-print(c)
+# print(c)
