@@ -1,5 +1,13 @@
 ##Programs on Strings
 
+# st = "Devendra pawar"
+# dk = st.split() 
+# print(dk)            # for converting into array
+# dp = " ".join(dk)
+# print(dp)            # for converting into string
+
+
+
 #Que 1. Write a program to find length of a string.
 
 # string1 = "Devendra pawar"
@@ -30,7 +38,6 @@
 
 
 #Que 3.  Write a program to concatenate two strings
-
 
 # first = "Devendra"
 # last = "Pawar"
@@ -149,3 +156,163 @@
  
 
 #Que. 10 Write a program to count total number of words in a string.
+
+# st = "my name is devendra pawar"
+# count = 1
+# for i in st :
+#     if i ==" ":
+#         count += 1
+# print(count)
+
+
+# Que 11. Write a  program to find reverse of a string.
+
+# st = "devendra"
+# a = st[::-1]
+# print(a)
+
+
+# # //or//
+
+# st1 = "devendra pawar"
+# print("Before reversing : ",st1)
+
+# arr= []           #converting string into array
+# for i in st1:
+#     arr += i
+
+# length= 0         # finding length of a string/array
+# for i in arr:
+#     length += 1
+
+# for i in range(length//2):       # reversing the array
+#     temp = arr[i]
+#     arr[i]= arr[length-i-1]
+#     arr[length-i-1]= temp
+
+# st2 =""           # converting array into string
+# for i in arr:
+#     st2 += i
+
+# print("After reversing : ",st2)
+
+
+#Que 12.Wr program to check whether a string is palindrome or not.
+# st= "1232321"
+
+# n= 0
+# for i in st:
+#     n+=1
+
+# arr = []
+# for i in st:
+#     arr += i
+
+# for i in range(n//2):
+#     temp = arr[i]
+#     arr[i]= arr[(n-1)-i]
+#     arr[(n-1)-i] = temp
+
+# copy =""
+# for i in arr:
+#     copy += i
+
+# if copy == st:
+#     print("its a palindrome")
+# else :
+#     print("not a palindrome")
+
+
+#Que 13. Write a program to reverse order of words in a given string.
+
+
+st = " my name is devendra"
+dk = str.split()
+n = len(dk)
+for i in range(n):
+    for j in i:
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

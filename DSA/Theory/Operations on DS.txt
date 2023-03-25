@@ -1,0 +1,10 @@
+link- https://www.mygreatlearning.com/blog/data-structure-tutorial-for-beginners/#:~:text=Data%20Structure%20Operations%20%E2%80%93&text=Searching%20%E2%80%93%20We%20can%20easily%20search,elements%20from%20the%20data%20structure.
+
+
+Data Structure Operations – 
+
+Searching – We can easily search for any data element in a data structure.
+Sorting – We can sort the elements either in ascending or descending order.
+Insertion – We can insert new data elements in the data structure.
+Deletion – We can delete the data elements from the data structure.
+Updation – We can update or replace the existing elements from the data structure.

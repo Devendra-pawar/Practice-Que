@@ -1,0 +1,8 @@
+ 
+Types of Array operations:
+
+Traversal: Traverse through the elements of an array.
+Insertion: Inserting a new element in an array.
+Deletion: Deleting element from the array.
+Searching:  Search for an element in the array.
+Sorting: Maintaining the order of elements in the array.
