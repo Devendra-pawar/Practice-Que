@@ -24,6 +24,34 @@
 # print(new)
 
 
-a = [" ", " ", " "]
-a[2]= 2
-print(a)
+# a = [" ", " ", " "]
+# a[2]= 2
+# print(a)
+
+
+# arr =["iabd" ,"utxrfqdva", "ccgbugwg", 'lj']
+# ans = 0
+# out = ""
+# for i in arr:
+#     co = len(i)
+#     vo = 0
+#     for j in i:
+#         if j == "a" or j == "e" or j == "i" or j == "o" or j == "u" or j == "A" or j == "E" or j == "I" or j == "O" or j == "U" :
+#             vo +=1
+#     dif = co-vo
+#     if ans < dif:
+#         ans = dif 
+#         out = i
+# print(out)
+
+
+# print(ans)
+
+
+
+a = ""
+b = 9
+if a< 9:
+    print(b)
+
+    

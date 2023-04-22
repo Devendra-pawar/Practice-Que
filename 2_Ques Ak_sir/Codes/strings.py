@@ -122,7 +122,7 @@
     
 
 
-#Que 8.Write a program to find total number of alphabets, digits or special character in a string.
+#Que 8. Write a program to find total number of alphabets, digits or special character in a string.
 
 # string1 = "My id is devendra_06/01/2003_pawar"
 # alpha = 0
@@ -222,18 +222,13 @@
 # else :
 #     print("not a palindrome")
 
-
 #Que 13. Write a program to reverse order of words in a given string.
 
 
 st = " my name is devendra"
-dk = str.split()
-n = len(dk)
-for i in range(n):
-    for j in i:
-        
 
-
+st = list(st)
+print(st)
 
 
 
