@@ -49,9 +49,51 @@
 
 
 
-a = ""
-b = 9
-if a< 9:
-    print(b)
+# a = ""
+# b = 9
+# if a< 9:
+#     print(b)
 
     
+
+arr = "aabbcaaabbcccb"
+# ans= 'abcabcb'
+b = " "
+c="0"
+for i in arr:
+    if c != i:
+        b+=i
+        c=i
+print(b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
