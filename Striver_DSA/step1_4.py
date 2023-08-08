@@ -17,5 +17,5 @@
 # sum = 0
 # for i in str(n):
 #     sum+= int(i)**order
-# if sum == n:print("armstrong no.")
+# if sum == n: print("armstrong no.")
 

@@ -347,31 +347,39 @@
 
 #Que 129
 
-a = "pine"
-b = "nipe"
+# a = "pine"
+# b = "nipe"
 
-for i in a:
-    count2 = 0
-    for j in b:
-        if i == j:
-            count2+=1
-    count1+=1
+# a1 = list(a)
+# b1 = list(b)
 
+# a1.sort()
+# b1.sort()
 
-
-
-
-
+# if a1==b1 :
+#     print("its an anagram")
+# else:
+#     print("it is not an anagram")
 
 
+#Que 130-  Program to reverse words in a line
+
+# a = "devendra"
+# print(a[::-1])
+
+
+#Que 131- Program to reverse a line
+
+# a = "Taj Mahal is one of the seven wonders of the world"
+
+# a1 = a.split(" ")
+# a1 = a1[::-1]
+# print(" ".join(a1))
 
 
 
 
-
-
-
-
+#Que 132 - C Program to Sort Elements in Lexicographical Order
 
 
 

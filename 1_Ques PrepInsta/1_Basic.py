@@ -211,78 +211,112 @@
 
 #Que 20 - Finding Prime Factors of a number : 
 
-num = 50
-for i in range(1,num):
-    if num%i ==0:
-        count = 0
-        # print(i)
-        for j in range(2,i):            
-            if i %j!=0:
-                count +=1      
-        if i == 1 or i ==2:
-            print(i,end=" ")          
-        if count != 0 :
-            print(i,end= " "  )
+############################### nhi hua
 
 
 
+#Que 21 - Strong number :
+
+
+# num  = 145
+# sum = 0
+# for i in str(num):
+#     a = 1
+#     for j in range(1,int(i)+1):        
+#         a *= j
+#     sum += a
+    
+# if sum == num :
+#     print("ye strong hai")
+# else:
+#     print("nhi h bhai ye strong ")
+
+
+#Que 22 - Perfect number :
+
+# num = 28 
+# sum =0
+# for i in range(1,num):
+#     if num%i == 0 :
+#         sum += i
+        
+# if num == sum :
+#      print( "ye perfect no. hai ")
+# else:
+#     print("isko perfect banna padega")
 
 
 
+#Que 23 - Perfect Square : 
+
+
+# num = 81
+
+# for i in range(1,num):
+#     if num%i == 0 and i*i == num :       
+#         print("its a perfect square of :", i)
 
 
 
+#Que 24 - Automorphic number :
 
 
+# num = 76                # ye ab tk ka best solution hai 
+# sq = num*num 
+# n = len(str(num))
+# rem = sq % ( 10 ** n )
+# if rem == num : 
+#     print("ye automorphic hai")
 
 
+#Que 25 - Harshad number : 
+
+# num = 21
+# sum =0
+# for i in str(num):
+#     sum += int(i)
+
+# if num % sum == 0 :
+#     print("ye Harshad mehta no. hai")
 
 
+#que 26 - Abundant Number :
 
 
+# num = 12 
+# sum = 0 
+# for i in range(1,num):
+#     if num % i == 0 :
+#         sum+= i
+
+# if sum > num :
+#     print("ye abudant number hai")
 
 
+#Que 27 - Friendly pair :
 
+# num1 = 6
+# num2 = 28
 
+# sum1 = 0
+# sum2 = 0
 
+# for i in range(1,num1):
+#     if num1 % i == 0 :
+#         sum1 += i
 
+# for i in range(1,num2):
+#     if num2 % i == 0 :
+#         sum2 += i
 
+# r1 = sum1 // num1
+# r2 = sum2 // num2 
 
+# if r1 == r2 :
+#     print("ye friendly pair hai ")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# else:
+#     porint("nhi hai nhi hai")
 
 
 

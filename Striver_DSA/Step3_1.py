@@ -6,7 +6,8 @@
 #Que- Second Largest Element in an Array without sorting
 # arr = [1,2,3,4,5,6,0,7,7,4,7]
 # s = list(set(arr))
-# print(f"smallest:{s[0]}, largest:{s[-1]}\n2nd smallest:{s[1]}, 2nd largest:{s[-2]}",end=" ")
+
+# print(f"smallest: {s[0]}, largest: {s[-1]}\n2nd smallest: {s[1]}, 2nd largest: {s[-2]}",end=" ")
 
 
 #Que-Check if the array is sorted

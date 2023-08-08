@@ -151,14 +151,120 @@
 
 #Que 14 - Capitalize the first and last character of each word of a string :
 
-a = "devendra pawar"
-b = list(a)
 
-for i in b:
-    for j in i:
-        j[0].upper()
-        j[len(j)-1].upper()
-        print(j)
+
+
+
+
+
+
+
+
+
+
+
+##not done
+
+
+#Que 15 - Calculate frequency of characters in a string :
+
+
+# st = 'devendra pawar'
+
+# dict =  {}
+# for i in st:
+    
+#     if i in dict:
+#         dict[i]+=1
+#     else:
+#         dict[i] = 1
+# print(dict)
+
+
+## another way 
+
+
+
+
+
+
+
+
+
+
+#Que 16- Find non-repeating characters in a string :
+
+
+# def fun(s,n):
+#     for i in s:
+        
+#         count = 0 
+#         for j in s:
+#             if i == j :
+#                 count += 1
+#         if count == 1 :
+#             print(i,end=" ")
+
+# s = "prepinsta"
+# n = len(s)
+# fun(s,n)
+
+
+
+
+#Que 17 - Check if two strings are Anagram or not :
+
+s1 = "Listen"
+s2 = "Silent"
+s1 = sorted(s1.lower())
+s2 = sorted(s2.lower())
+
+if s1==s2 :
+    print("they are anagram")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
