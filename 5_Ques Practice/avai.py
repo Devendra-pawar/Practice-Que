@@ -56,21 +56,22 @@
 
     
 
-arr = "aabbcaaabbcccb"
-# ans= 'abcabcb'
-b = " "
-c="0"
-for i in arr:
-    if c != i:
-        b+=i
-        c=i
+# arr = "aabbcaaabbcccb"
+# # ans= 'abcabcb'
+# b = " "
+# c="0"
+# for i in arr:
+#     if c != i:
+#         b+=i
+#         c=i
+# print(b)
+
+
+
+a = [10,30,40,50]
+# print(a[1])
+b = a[0:2]
 print(b)
-
-
-
-
-
-
 
 
 

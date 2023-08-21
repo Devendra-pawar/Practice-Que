@@ -8,4 +8,4 @@ class LinkedList:
         self.head = None
 
     def insert_at_begining(self,data):
-        
+        pass

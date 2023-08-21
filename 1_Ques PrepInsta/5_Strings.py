@@ -214,13 +214,13 @@
 
 #Que 17 - Check if two strings are Anagram or not :
 
-s1 = "Listen"
-s2 = "Silent"
-s1 = sorted(s1.lower())
-s2 = sorted(s2.lower())
+# s1 = "Listen"
+# s2 = "Silent"
+# s1 = sorted(s1.lower())
+# s2 = sorted(s2.lower())
 
-if s1==s2 :
-    print("they are anagram")
+# if s1==s2 :
+#     print("they are anagram")
 
 
 
