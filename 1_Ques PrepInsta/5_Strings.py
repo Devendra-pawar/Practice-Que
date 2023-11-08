@@ -224,24 +224,35 @@
 
 
 
+#que 18 - Replace a sub-string in a string:
+
+
+# s = "prepinsta__asa"
+# ss = "insta"
+# r = "ster"
+# p=""
+# for i in range(len(s)):
+#     if s[i:i+len(ss)] == ss:
+#         p = s[:i]+r+s[i+len(ss):]
+#         break
+
+# print(p)
 
 
 
+#Que 19- Replacing a particular word with another word in a string
+
+
+# s = "devendra"
+# w = "d"
+# r = "k"
+
+# s = s.replace(w,r)
+# print(s)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+#que 20 - Finding equilibrium index of an array :
 
 
 

@@ -68,32 +68,73 @@
 
 
 
-a = [10,30,40,50]
-# print(a[1])
-b = a[0:2]
-print(b)
+# a = [10,30,40,50]
+# # print(a[1])
+# b = a[0:2]
+# print(b)
+
+
+# print(chr(64))
+
+
+
+# a = dict()
+
+# a["a"] = "b"
+# print(a)
+
+
+
+
+# a = ["a","b"]
+# i = "b"
+# a.remove(i)
+# print(a)
+
+
+
+# a = 12
+# r = str(a)[::-1]
+# print(r)
+
+# l = 11
+# r = 20
+# ans = 0
+# for i in range(l,r+1):
+#     rev = str(i)[::-1]
+#     count = 0
+#     for j in range(2,max(i,int(rev))):
+#         if i %j == 0 and int(rev) %j == 0 :
+#             count +=1
+            
+#     if count == 0:
+#         ans +=1        
+# print(count)
 
 
 
 
 
 
+# a = 13
+# count = 0 
+# for i in range(2,a):
+    
+#     if a%i ==0:
+#         count +=1
+# if count == 0 :
+#     print(a, "is a prime")
+    
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+# a= 11
+# b = 21
+# c = a%b 
+# print(c)
 
 
 

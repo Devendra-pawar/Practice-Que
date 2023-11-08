@@ -210,13 +210,66 @@
 
 #Que 26- Harshad number
 
-# a = 2221
+# a = 4991 
+# b= 0 
+# for i in str(a):
+#     b += int(i)
 
-# b = a 
+# if a%b == 0:
+#     print("its a harshad no.")
+# else:
+#     print("nhi hai ")
 
-# c = 0 
-# for i in range(len(str(a))):
-#     b = b%10
-#     c = c+b
 
-# print(c)
+#Que 27- Adundant no.
+
+# a = 30
+# b = 0 
+# for i in range(1,a):
+#     if a%i == 0 :
+#         b+= i
+
+# if b>a :
+#     print("its an abundant number")
+# else:
+#     print("nhi hai ")
+
+
+
+
+
+#Que 28 - friendly pair 
+
+# def fun(z):
+#     sum = 0 
+#     for i in range(1,z):
+#         if z%i == 0:
+#             sum+=i
+#     return sum
+
+# a =  6
+# b = 28
+
+# x = fun(a)
+# y = fun(b)
+# if a//x ==b//y:
+#     print("friendly pair")
+# else:
+#     print("nhi hai ")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

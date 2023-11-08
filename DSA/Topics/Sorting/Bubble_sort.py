@@ -33,9 +33,9 @@
 # a = [2,51,9,10,6,23,78,3]
 # n = len(a)
 # for i in range(n):
-#     for j in range(n-1):
+#     for j in range(n-1-i):
 #         if a[j]>a[j+1]:
-#             a[j],a[j+1] = a[j+1], a[j]=
+#             a[j],a[j+1] = a[j+1], a[j]
 # print(a)
 
 
@@ -45,10 +45,18 @@
 
 
 
+#Again 
+
+# arr = [4,7,9,20,7,30,20,2]
+# n = len(arr)
+# for i in range(n):  
+#     for j in range(n-1-i):   
+#         if arr[j] > arr[j+1]:
+#             arr[j],arr[j+1] = arr[j+1] , arr[j]
+# print(arr)
 
 
 
-
-
+ 
 
 

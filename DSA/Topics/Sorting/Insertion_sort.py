@@ -1,9 +1,9 @@
 # https://www.youtube.com/watch?v=QWFanrA43Z4
 
+
 '''left wala part sort hote jata hai.
    ek ko pick karo or starting se check kro use 
    or uske right position pr rakh do'''
-
 
 
 
@@ -18,13 +18,6 @@
 #     else:
 #         l[j+1]=k
 # print("sorted list :",l)
-
-
-
-
-
-
-
 
 
 

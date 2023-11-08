@@ -1,0 +1,31 @@
+Sorting is a fundamental operation in computer science that involves arranging items or data elements in a specific order. Efficient sorting algorithms are essential for optimizing various computational tasks, such as searching, data analysis, and information retrieval.
+
+
+
+
+
+
+Stable sorting algorithms
+There are numerous examples, but the most common ones include:
+
+Merge sort: It divides the dataset into smaller subarrays, sorts them individually, and then merges them to obtain the final sorted result. Its time complexity is O(n log n).
+
+Insertion sort: It divides the array into sorted and unsorted portions. It compares the unsorted elements with the sorted elements and places them in their correct positions. Its time complexity is O(n 2).
+
+Bubble sort: It iterates the array repeatedly until completely sorted, compares the adjacent elements in each iteration, and swaps them if they are not in the correct order. Its time complexity is O(n 2).
+
+Counting sort: It counts the occurrences of the elements in the dataset and uses this information to sort them in increasing order. Its time complexity is O(n+b).
+
+
+
+
+
+
+Unstable sorting algorithms
+There are numerous examples, but the most common ones include:
+
+Quick sort: It uses a recursive approach to divide an array into subarrays. In every recursive call, it chooses a pivot element, places it in its correct sorted position, and arranges the elements so that those smaller than the pivot are placed before it. In contrast, larger ones are placed after it. Its time complexity is O(n log n).
+
+Heap sort: It uses the max heap data structure, extracts the maximum element repeatedly, and places it at the end of the list, resulting in the sorted data. Its time complexity is O(n log n).
+
+Shell sort: It divides the list into sublists, uses an insertion sort algorithm to sort each sublist, and gradually reduces the gap between elements to sort the entire list efficiently. Its time complexity is O(n log n).
