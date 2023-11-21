@@ -1,4 +1,4 @@
-class Phone :
+class Phone:
 
     def make_call(self):
         print("Making a phone call")

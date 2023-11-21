@@ -400,6 +400,267 @@
 
 #Que 31- Find all Symmetric pairs in an array : 
 
+# a =[(3, 4), (1, 2), (5, 2), (7, 10), (4, 3), (2, 5)]
+# b = []
+# for i,j in a:
+#     if (j,i) in a:
+#         b.append((j,i))
+#         if (i,j) not in b:
+#             print((j,i))
+    
+
+#Que 32 - Find maximum product sub-array in a given array : 
+
+# a= [ 1, -2, -3, 0, 7, -8, -2 ]
+
+
+
+
+
+
+
+
+
+
+
+#Que 33- Finding Arrays are disjoint or not :
+
+# a= [10, 5, 3, 4, 6]
+# b = [8, 7, 9, 11]
+# count = 0
+# for i in a:
+#     if i in b:
+#         count += 1
+# if count == 0 :
+#     print("yes")
+# else:
+#     print("no")
+
+#Que 34 - Determine Array is a subset of another array or not :
+
+# arr1 = [11, 12, 13, 21, 30, 70]
+# arr2 = [11, 30, 70, 12]
+# count = 0 
+# for i in arr2:
+#     if i in arr1:
+#         count += 1
+# if count == len(arr2):
+#     print("subset")
+# else:
+#     print("not a subset")
+
+
+#Que 35 - Determine can all numbers of an array be made equal :
+
+
+
+
+
+
+
+#Que 36 -Finding Minimum sum of absolute difference of given array : 
+
+
+
+
+
+
+#Que 37 -Sort an array according to the order defined by another array :
+
+# arr1 = [ 20, 1, 20, 5, 7, 1, 9, 39, 6, 18, 18 ]
+# arr2 = [ 20, 1, 18, 39 ]
+
+# c=[]
+
+# for i in arr2:
+#     for j in arr1:
+#         if i == j :
+#             c.append(i)
+# for k in arr1:
+#     if k not in c:
+#         c.append(k)
+# print(c)
+
+
+
+#Que 38 - Replace each element of the array by its rank in the array :
+
+
+# a= [100, 2, 70, 12 , 90]
+# b= sorted(a)
+
+# c= []
+# for i in a:
+#     for j in range(len(b)):
+#         if i == b[j]:           
+#             c.append(j)
+# print(a)            
+# print(c)
+
+
+
+#or
+
+# a= [100, 2, 70, 12 , 90]
+# b= a.copy()
+# b.sort()
+
+# c= []
+# for i in a:
+#     for j in range(len(b)):
+#         if i == b[j]:           
+#             c.append(j)
+# print(a)            
+# print(c)
+
+
+#Que 39 - Finding equilibrium index of an array : 
+
+# a =[-4, 1, 5, 2, -4, 4, 2]
+# a.sort()
+# print(a.index(a[len(a)//2]))
+
+
+#Que 40 - Rotation of elements of array- left and right :
+
+# a =[10, 20, 30, 40, 50]
+# right =  a[-1:] + a[:-1]
+# print("right shift - ",right)
+# left = a[1:] + a[:1]
+# print("left shift -",left)
+
+
+#Que 41 - Block swap algorithm for array rotation : 
+
+
+##
+
+
+
+
+#Que 42 - Juggling algorithm for array rotation : 
+
+##
+
+
+
+
+#Que 43 - Finding Circular rotation of an array by K positions :
+
+# a =[1, 2, 3, 4, 5]
+
+# left_rotate = 2
+
+# start = a[2:]
+# end = a[:2]
+# sum = start+end
+# print(sum)
+
+
+#Que 44 - Balanced Parenthesis Problem :
+
+##
+
+
+
+#Que 45 -  Toggle each character in a string : 
+
+# s = "DeVeNdRa"
+# res =""
+# for i in s:
+#     if i >="A" and i<="Z":
+#         i = ord(i) + 32
+#         res += chr(i)
+        
+#     else:
+#         i= ord(i)-32
+#         res+= chr(i)
+# print(res)
+
+
+#Que 46 - Capitalize the first and last character of each word of a string : 
+
+
+# a = "devendra pawar"
+# b = list(a.split(" "))
+# c = []
+# for i in b:
+#     st=""
+#     for j in range(len(i)):
+#         if j==0 or j == len(i)-1:
+#             st += i[j].upper()
+#         else:
+#             st+=i[j]
+#     c.append(st)
+# a = " ".join(c)
+# print(a)
+
+
+#Que 47 - Calculate frequency of characters in a string :
+
+# s = "Yolo Life"
+# s =s.upper()
+# c= ""
+
+# for i in s:
+#     if i not in c:
+#         c+=i
+#         count = 0
+#         for j in s:
+#             if i == j:
+#                 count += 1
+#         print( i,":",count,",",end=" ")
+
+
+#or
+
+# s = "devendra"
+# for i in s:
+#     f = s.count(i)
+#     print(i,":",f,end=" ") 
+
+#or
+
+# s = "devendra"
+# a = {}
+# for i in s:
+#     if i in a:
+#         a[i] +=1
+#     else:
+#         a[i]=1
+# print(a)                             # best method 
+
+
+
+#Que 48 - Find non-repeating characters in a string :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
