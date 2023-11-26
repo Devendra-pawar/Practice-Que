@@ -132,12 +132,12 @@
 
 ## linked list
  
-class Node:
+class Node():
     def __init__(self,item= None,next=None):
         self.item = item 
         self.next = next 
 
-class SLL:
+class SLL():
     def __init__(self,start=None):
         self.start = start 
 
@@ -219,20 +219,20 @@ class SLL:
             
 
 
-dev = SLL()
-dev.insert_at_start(10)
-dev.insert_at_start(20)
-dev.insert_at_last(30)
-dev.insert_after(20,50)
-dev.insert_at_last(40)
-dev.display()
+# dev = SLL()
+# dev.insert_at_start(10)
+# dev.insert_at_start(20)
+# dev.insert_at_last(30)
+# dev.insert_after(20,50)
+# dev.insert_at_last(40)
+# dev.display()
 
-print()
-dev.delete_at_start()
-dev.delete_at_end()
-dev.display()
-print()
-dev.delete_value(10)
-dev.display()
+# print()
+# dev.delete_at_start()
+# dev.delete_at_end()
+# dev.display()
+# print()
+# dev.delete_value(10)
+# dev.display()
 
 

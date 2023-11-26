@@ -47,7 +47,35 @@ print(dev.peek())
 
 
 
+#Again 
 
+# class Stack :
+#     def __init__(self):
+#         self.item = []
+
+#     def is_empty(self):
+#         if len(self.item) ==0:
+#             return True
+#         else:
+#             False
+
+#     def push(self,data):
+#         self.item.append(data)
+    
+#     def pop(self):
+#         if not self.is_empty():
+#             return self.item.pop()
+#         else:
+#             raise IndexError("stack is empty")
+
+#     def peek(self):
+#         if not self.is_empty():
+#             return self.item[-1]
+#         else:
+#             raise IndexError("stack is empty")
+
+#     def size(self):
+#         return len(self.item)
 
 
 
