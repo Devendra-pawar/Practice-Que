@@ -117,24 +117,84 @@ class Linked_list():
     
     def insert_start(self,data):
         n = Node(data,self.head)
-
-
-
-
+        self.head = n
 
     def insert_end(self,data):
+        n = Node(data,None)
+        if not self.is_empty():
+            temp = self.head
+            while temp.next != None:
+                temp = temp.next
+            temp.next = n
+        else:
+            self.head = n                          
+
+    def search(self,data):
+        temp = self.head
+        while temp != None:
+            if temp.data == data:
+                return temp
+            temp = temp.next
+        return None
+
+    def insert_after(self,after,data):
+        temp = self.search(after)
+        if temp is not None:
+            n = Node(data,temp.next)
+            temp.next = n
+    
+    def display(self):
+        temp =self.head
+        while temp != None:
+            print(temp.data,end=" ")
+            temp= temp.next
+
+    def delete_first(self):
+        if self.head is not None:
+            self.head = self.head.next
+
+    def delete_end(self):  
+        if self.head is None:
+            pass
+        elif self.head.next == None:
+            self.head = None
+        else:
+            temp = self.head 
+            while temp.next.next != None:
+                temp = temp.next
+            temp.next = None
+
+
+    def delete_item(self,data):
+        if self.head == None:
+            pass
+        elif self.head.next == None :
+            if self.head.item == data:
+                self.head = None
+        else:
+            temp = self.head 
+            while temp.next
 
 
 
 
-    def insert_anywhere(self,):
 
 
 
+sl = Linked_list()
 
-
-
-
+sl.insert_start(10)
+sl.insert_end(20)     
+sl.insert_start(30)
+sl.insert_end(40) 
+sl.insert_after(10,50)
+sl.display()
+print()
+sl.delete_end()
+sl.display()
+sl.insert_end(60) 
+print()
+sl.display()
 
 
 

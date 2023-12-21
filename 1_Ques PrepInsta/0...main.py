@@ -622,7 +622,7 @@
 #or
 
 # s = "devendra"
-# a = {}
+# a = {}                 # using dict
 # for i in s:
 #     if i in a:
 #         a[i] +=1
@@ -634,15 +634,36 @@
 
 #Que 48 - Find non-repeating characters in a string :
 
+# a = "devendrapawar"
+
+# for i in a:
+#     count=0
+#     for j in a:
+#         if i==j:
+#             count+=1
+#     if count >1:
+#         pass
+#     else:
+#         print(i,end=" ")
+                
+#Que 49 - Replacing a particular word with another word in a string –
+
+# a = "my name is devendra pawar"
+# b = list(a.split(" "))
+# c=[]
+# x= "pawar"
+# y = "kirankar"
+
+# for i in b:
+#     if i == x:
+#         i= y
+#     c.append(i)
+
+# d = " ".join(c)
+# print(d)
 
 
-
-
-
-
-
-
-
+#Que 50 - Count common sub-sequence in two strings :
 
 
 
