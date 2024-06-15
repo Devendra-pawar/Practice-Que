@@ -140,17 +140,42 @@
 
 
 
+# a= -11
+# print(abs(a))
 
     
 
+# ln = 4
+
+# a = 4
+# b= 1
+# for i in range(1,ln+1):
+#     for j in range(1,ln+1):
+#         if j >= a:
+#             print("*",end=" ")
+#         else :
+#             print(" ",end=" ")
 
 
+#     for j in range(2,ln+1):
+#         if j <=b:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end= " ")
 
 
+#     a -= 1
+#     b += 1
+#     print()
 
 
+# a = [[1,2],[3,4]]
+# for i in a:
+#     print(i)
 
 
+list=[ 1, 2, 3 ]
+print(list*3)
 
 
 
